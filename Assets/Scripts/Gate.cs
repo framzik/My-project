@@ -11,4 +11,20 @@ public class Gate : MonoBehaviour
         _gateApperance.UpdateVisual(_defomationType, _value);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        PlayerModyfire playerModyfire = other.attachedRigidbody.GetComponent<PlayerModyfire>();
+        if (playerModyfire != null)
+        {
+            if (_defomationType == DefomationType.Widht)
+            {
+                playerModyfire.AddWidht(_value);
+            }
+            else if (_defomationType == DefomationType.Height)
+            {
+                playerModyfire.AddHeight(_value);
+            }
+
+        }
+    }
 }

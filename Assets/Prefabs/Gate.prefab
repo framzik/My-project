@@ -183,6 +183,7 @@ GameObject:
   - component: {fileID: 6030938695048772602}
   - component: {fileID: 3285341902868110184}
   - component: {fileID: 2039715041464167325}
+  - component: {fileID: 7709478754864874373}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Untagged
@@ -244,6 +245,27 @@ MonoBehaviour:
   _value: 23
   _defomationType: 0
   _gateApperance: {fileID: 3285341902868110184}
+--- !u!65 &7709478754864874373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171262176645698468}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.9810767, y: 1.9503335, z: 0.3487568}
+  m_Center: {x: 0.044631165, y: 0.99640113, z: 0.011738777}
 --- !u!1 &1405951694905613204
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +985,6 @@ GameObject:
   - component: {fileID: 1985675544341277516}
   - component: {fileID: 7004392219253718798}
   - component: {fileID: 4578738021033317198}
-  - component: {fileID: 5402493552329788893}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1039,27 +1060,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5402493552329788893
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7742569803782047659}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8158864430093090530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,8 +1239,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0000001, y: 1, z: 1}
+  m_Center: {x: -0.00000023841858, y: 0, z: 0}
 --- !u!1 &8930864120800512579
 GameObject:
   m_ObjectHideFlags: 0
